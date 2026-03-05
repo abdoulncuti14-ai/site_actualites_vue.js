@@ -4,12 +4,18 @@ import PublicationView from '../views/PublicationView.vue'
 import DashboardView from '../views/DashboardView.vue'
 import AddArticleView from '../views/AddArticleView.vue' // Import du nouveau composant
 import FormulaireView from '@/views/FormulaireView.vue'
+import LoginView from '@/views/LoginView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'formulaire',
     component: FormulaireView
+  },
+  {
+    path: '/home',
+    name: 'login',
+    component: LoginView
   },
   {
     path: '/flux', 
